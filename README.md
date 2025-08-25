@@ -3,6 +3,8 @@
 ## 🎯 Overview
 This is a real-time, multiplayer Tic-Tac-Toe game that allows two players to compete against each other from separate clients, connected over WebSocket. The game uses Redis for state synchronization between two independent backend servers.
 
+https://github.com/user-attachments/assets/4279629e-1660-4b24-a893-8e11ba7d9cae
+
 ## 🏗️Architecture
 
 - **Backend:** Two Node.js WebSocket servers (server.js on ports 3001 and 3002).
