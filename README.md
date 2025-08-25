@@ -93,4 +93,4 @@ This solution was developed with extensive use of AI assistances Claude Sonnet 4
 - Code generation for WebSocket and Redis integration
 - Debugging and optimization suggestions. For example: ```game.js already include checkwinner function. I want to move checkWinner, handleMove and isDraw functions to game.js file. Remove it from server```
 - Documentation and README generation:
-```Please update my README. Now we work with redis instead of WS```
+```Please update my README. Now we work with redis instead of WS Federation```
