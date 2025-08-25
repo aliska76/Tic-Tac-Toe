@@ -19,21 +19,23 @@ This is a real-time, multiplayer Tic-Tac-Toe game that allows two players to com
     - Atomic version control.
     - Real-time pub/sub messaging between servers.
 
+
 ## 🛠️Technical Implementation
-### Server-Server Communication (Redis Pub/Sub)
-    - Channel: tictactoe:events
-    - Message Format: JSON with state snapshots and versioning
-    - Synchronization: Atomic version counter ensures consistency
+### Server-Server Communication (Redis Pub/Sub):
+
+    - **Channel:** tictactoe:events
+    - **Message Format:** JSON with state snapshots and versioning
+    - **Synchronization:** Atomic version counter ensures consistency
 
 ### Client-Server Communication (WebSocket)
-    - Message Types: join, move, update, win, draw, status, error
-    - Protocol: JSON-based messaging.
+- **Message Types:** join, move, update, win, draw, status, error
+- **Protocol:** JSON-based messaging.
 
 ## 📦Dependencies
-    - ws: WebSocket implementation.
-    - ioredis: Redis client.
-    - dotenv: Environment variable management.
-    - cross-env: Cross-platform environment variable support.
+- **ws:** WebSocket implementation.
+- **ioredis:** Redis client.
+- **dotenv:** Environment variable management.
+- **cross-env:** Cross-platform environment variable support.
 
 ## 🚀How to Run
 
@@ -70,14 +72,14 @@ This is a real-time, multiplayer Tic-Tac-Toe game that allows two players to com
 - You can run multiple games by restarting the servers.
 
 ## 🐛Troubleshooting
-    - Redis Connection Issues: Ensure Redis is running on localhost:6379
-    - Port Conflicts: Check if ports 3001/3002 are available
-    - Game Not Starting: Ensure both clients are connected to different servers
-    - State Sync Issues: Restart both servers to reset game state
+- Redis Connection Issues: Ensure Redis is running on localhost:6379
+- Port Conflicts: Check if ports 3001/3002 are available
+- Game Not Starting: Ensure both clients are connected to different servers
+- State Sync Issues: Restart both servers to reset game state
 
 ## 📝Future Enhancements
-    - Multiple concurrent games
-    - Player authentication and matchmaking
-    - Game history and statistics
-    - Web-based UI alongside CLI
-    - Docker containerization
+- Multiple concurrent games
+- Player authentication and matchmaking
+- Game history and statistics
+- Web-based UI alongside CLI
+- Docker containerization
