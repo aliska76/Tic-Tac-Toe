@@ -42,7 +42,7 @@ https://github.com/user-attachments/assets/4279629e-1660-4b24-a893-8e11ba7d9cae
 
 1. **Prerequisites:**
     - Install Redis on your system
-    - Start Redis server (default: redis://127.0.0.1:6379):
+    - Start Redis server (default: redis://127.0.0.1:6379). If using windows command:
     ```
     C:\Program Files\Redis> .\redis-server.exe .\redis.windows.conf
     ```
