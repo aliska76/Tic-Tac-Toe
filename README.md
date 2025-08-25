@@ -2,7 +2,6 @@
 
 ## 🎯 Overview
 This is a real-time, multiplayer Tic-Tac-Toe game that allows two players to compete against each other from separate clients, connected over WebSocket. The game uses Redis for state synchronization between two independent backend servers.
-https://github.com/aliska76/Tic-Tac-Toe/blob/main/Tic-tac-toe.mp4
 
 ## 🏗️Architecture
 
