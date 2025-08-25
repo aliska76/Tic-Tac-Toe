@@ -91,6 +91,6 @@ https://github.com/user-attachments/assets/4279629e-1660-4b24-a893-8e11ba7d9cae
 ## 🧠 AI Usage
 This solution was developed with extensive use of AI assistances Claude Sonnet 4 and Deepseek:
 - Code generation for WebSocket and Redis integration
-- Debugging and optimization suggestions. For example: ```game.js already include checkwinner function. I want to move checkWinner, handleMove and isDraw functions to game.js file. Remove it from server```
-- Documentation and README generation:
+- Debugging and optimization suggestions. Prompt example: ```game.js already include checkwinner function. I want to move checkWinner, handleMove and isDraw functions to game.js file. Remove it from server```
+- Documentation and README generation. Prompt example:
 ```Please update my README. Now we work with redis instead of WS Federation```
