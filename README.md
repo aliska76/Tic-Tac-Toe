@@ -22,10 +22,9 @@ This is a real-time, multiplayer Tic-Tac-Toe game that allows two players to com
 
 ## 🛠️Technical Implementation
 ### Server-Server Communication (Redis Pub/Sub):
-
-    - **Channel:** tictactoe:events
-    - **Message Format:** JSON with state snapshots and versioning
-    - **Synchronization:** Atomic version counter ensures consistency
+- **Channel:** tictactoe:events
+- **Message Format:** JSON with state snapshots and versioning
+- **Synchronization:** Atomic version counter ensures consistency
 
 ### Client-Server Communication (WebSocket)
 - **Message Types:** join, move, update, win, draw, status, error
