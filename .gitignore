@@ -2,6 +2,7 @@
 
 # dependencies
 node_modules
+Redis-x64-5.0.14.1
 
 .git
 

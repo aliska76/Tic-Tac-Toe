@@ -1,0 +1,3 @@
+# Server B
+PORT=3002
+SERVER_ID=B
